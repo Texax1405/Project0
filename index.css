@@ -87,3 +87,8 @@ form{
     cursor: pointer;
     font-size: 16px;
 }
+.layout1{
+    justify-items: flex-end;
+    text-align: end;
+    align-items: flex-end;
+}

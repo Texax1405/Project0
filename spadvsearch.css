@@ -1,0 +1,91 @@
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+form{
+    position: relative;
+    display: inline-flex;
+    min-height: 200px;
+    min-width: 100%;
+}
+
+#div1{
+    position: relative;
+    display: flex;
+    padding: 5px 10px;
+    top:20%;
+    left: 0%;
+    height: 100px;
+    min-width: 100%;
+    justify-content: space-between;
+}
+#div1 h1{
+     color: red;
+     font-family: "arial",sans-serif;
+     font-size: 30px;
+}
+#div2{
+    position: absolute;
+    display: inline;
+    padding: 5px 5px;
+    margin-top: 5px ;
+    top:100px;
+    left: 0%;
+    min-height: 500px;
+    min-width: 100%;
+}
+#alline{
+    position: relative;
+    display: inline-block;
+    padding-top: 5px;
+}
+#label{
+    position: relative;
+    display: inline;
+    min-width: 50px;
+}
+h3{
+    display: flex;
+    font-family: "arial", sans-serif;
+    font-size: 16px;
+}
+.input1{
+    max-width: 200px;
+    max-height: 20px;
+    font-family: "arial", sans-serif;
+    font-size: 15px;
+}
+.line{
+    display: relative;
+    padding-top: 10px;
+    min-width: 100%;
+    outline: none;
+}
+.div3{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+    width: 150px;
+}
+button{
+    background-color: royalblue;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.input2{
+    border: 1.5px solid #ccc;
+    background-color: rgb(8, 167, 167);
+    border-radius: 3px;
+    color: #111;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
